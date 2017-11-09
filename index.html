@@ -20,10 +20,10 @@
                     </a>
                     <input type="email" class="form-control" name="loginEmail" id="loginEmail" placeholder="Email address" required autofocus>
                     <input type="password" class="form-control" name="loginPass" id="loginPass" placeholder="Password" required>
-                    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="self.location.href='../boardgame/index'">Sign in</button>
-                
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" onclick="goPage('game/boardgame/index.html')">Sign in</button>
+
                 </form>
-<!-- TEST -->
+
                 <form class="form-signin" id="recover" role="form">
                     <h3 class="form-signin-heading">Enter mail address</h3>
                     <a href="#" id="flipToLogin" class="flipLink">
@@ -34,10 +34,11 @@
                 </form>
 
             </div>
-            <!-- /container -->
+
         </div>
     </div>
 
 </body>
+<script src="function.js"></script>
 
 </html>
